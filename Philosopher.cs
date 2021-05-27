@@ -8,6 +8,7 @@ namespace DiningPhilosophers_v_2_0
 {
     class Philosopher
     {
+        //global variables
         public static bool[] forks = new bool[5];
         public static object _lock = new object();
         public static Random random = new Random();
