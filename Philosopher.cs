@@ -8,10 +8,10 @@ namespace DiningPhilosophers_v_2_0
 {
     class Philosopher
     {
-
         public static bool[] forks = new bool[5];
         public static object _lock = new object();
         public static Random random = new Random();
+        //fields
         private string name;
         private byte leftHand;
         private byte rightHand;
@@ -120,11 +120,7 @@ namespace DiningPhilosophers_v_2_0
                     }
                 }
 
-
-
             }
-
         }
-
     }
 }
